@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Marhey', cursive;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.display {
+    margin-bottom: 0.5em;
+    height: 2em;
+    background-color: rgba(211, 211, 211, 0.39);
+    text-align: right;
+}
+
+#display {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    margin: 1em 1em;
+}
